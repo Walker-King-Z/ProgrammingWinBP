@@ -17,7 +17,7 @@ import matplotlib.pyplot as plt
 
 # 输入数据
 temperature = np.array([0, 10, 20, 30, 40])  # 温度（摄氏度）
-density = np.array([0.99987, 0.99970, 0.99911, 0.99823, 0.99707])  # 密度（克/立方厘米）
+density = np.array([0.99987, 0.99970, 0.99911, 0.99823, 0.99707])  # 密度（克/立方厘米）【这个地方存疑】
 
 # 定义线性模型函数
 def linear_model(x, m, b):
