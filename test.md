@@ -10,7 +10,7 @@
 以下讨论大多是以线性函数形式来表示，但对于更广泛的函数族，最小二乘法也是有效和实用的。此外，迭代地将局部的二次近似应用于或然性（借由费希尔信息），最小二乘法可用于拟合广义线性模型。
 引用自维基百科：最小二乘法 - 维基百科（wikipedia.org）
 代码示例
-在Python中，可以使用NumPy和SciPy库来进行最小二乘法拟合。下面是一个简单的示例代码，演示如何使用这些库来拟合线性模型：
+在Python中，可以使用NumPy和SciPy库来进行最小二乘法拟合,下面是一个简单的示例代码，演示如何使用这些库来拟合线性模型：
 import numpy as np
 from scipy.optimize import curve_fit
 import matplotlib.pyplot as plt
